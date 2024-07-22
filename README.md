@@ -8,7 +8,7 @@ Aqui está uma explicação detalhada do código de configuração do envio de e
 O arquivo `.env` contém as variáveis de ambiente necessárias para a configuração do provedor de e-mail.
 
 ```plaintext
-EMAIL_SUPORT=kevinlily.cv@gmail.com
+EMAIL_SUPORT=emil_configurado
 PASS_EMAIL_SUPORT=ovjgvynzfiyaarqs
 HOST_EMAIL=smtp.gmail.com
 PROT_EMAIL=465
@@ -64,8 +64,8 @@ module.exports = async ({ strapi }) => {
     });
 
     const configEmail = {
-      to: 'aveiga.l20@us.edu.cv',
-      from: 'kevinlily.cv@gmail.com',
+      to: '',
+      from: '',
       subject: 'The Strapi Email plugin worked successfully',
       text: 'The Strapi Email plugin worked successfully',
       html: `
